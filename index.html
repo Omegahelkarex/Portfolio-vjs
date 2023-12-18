@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helkarex</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/skins/color-1.css">
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="css/style-switcher.css">
 </head>
 <body>
 
@@ -24,15 +29,15 @@
             <ul class="nav">
                 <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
                 <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
-                <!-- <li><a href="#"><i class="fa fa-list"></i>Services</a></li> -->
-                <!-- <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li> -->
+               
+                <li><a href="#"><i class="fa fa-briefcase"></i>Project</a></li>
                 <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
             </ul>
         </div>
 
 
         <div class="main-content">
-            <section class="home section hidden" id="home">
+            <section class="home section" id="home">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
@@ -287,53 +292,139 @@
 
 
 
-            <!-- <section class="portfolio section">
+            <section class="portfolio section">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
-                            <h2>Portfolio</h2>
+                            <h2>Projects</h2>
                         </div>
                     </div>
-                    
-                    <div class="row">
-                        <div class="portfolio-heading padd-15">
-                            <h2>My Last Projects :</h2>
-                        </div>
-                    </div>
-                    <div class="psol">
-                        <div class="row ">
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img">
-                                        <img src="images/portfolio-img1.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-    
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img">
-                                        <img src="images/portfolio-img1.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-    
-                            <div class="portfolio-item padd-15">
-                                <div class="portfolio-item-inner shadow-dark">
-                                    <div class="portfolio-img">
-                                        <img src="images/portfolio-img1.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                     
                 </div>
 
-            </section> -->
+
+
+                <!-- <div class="wrapper">
+                    <div class="containera">
+                        <input type="radio" name="slide" id="c1" checked>
+                        <label for="c1" class="card">
+                            <div class="rows">
+                                <div class="icons">1</div>
+                                <div class="descriptions">
+                                    <h4>LFLG</h4>
+                                    <p>Its is a website for a education institution</p>
+                                </div>
+                            </div>
+                        </label> 
+                        <input type="radio" name="slide" id="c2" checked>
+                        <label for="c2" class="card">
+                            <div class="rows">
+                                <div class="icons">2</div>
+                                <div class="descriptions">
+                                    <h4>LFLG</h4>
+                                    <p>Its is a website for a education institution</p>
+                                </div>
+                            </div>
+                        </label> 
+                        <input type="radio" name="slide" id="c3" checked>
+                        <label for="c3" class="card">
+                            <div class="rows">
+                                <div class="icons">3</div>
+                                <div class="descriptions">
+                                    <h4>LFLG</h4>
+                                    <p>Its is a website for a education institution</p>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c4" checked>
+                        <label for="c4" class="card">
+                            <div class="rows">
+                                <div class="icons">4</div>
+                                <div class="descriptions">
+                                    <h4>LFLG</h4>
+                                    <p>Its is a website for a education institution</p>
+                                </div>
+                            </div>
+                        </label>
+                        
+
+                    </div>
+                </div> -->
+
+                <div class="wrapper">
+                    <div class="containera">
+                        <input type="radio" name="slide" id="c1" checked>
+                        <label for="c1" class="card">
+                            <img src="/images/img1.jpg" height="400px" width="610px">
+                            <div class="rows">
+                                <div class="icons">1</div>
+                                <div class="description">
+                                    <h4>LFLG</h4>
+                                    <p>I have created this website for a coaching institute</p>
+                                     
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c2" >
+                        <label for="c2" class="card">
+                            
+                            <div class="rows">
+                                <div class="icons">2</div>
+                                <div class="description">
+                                    <h4>Coaching centre website</h4>
+                                    <p>This is also a website for coachingcentre</p>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c3" >
+                        <label for="c3" class="card">
+                            <div class="rows">
+                                <div class="icons">3</div>
+                                <div class="description">
+                                    <h4>Snake Game</h4>
+                                    <p>It is a old school snake game made in vanilla javascript</p>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c4" >
+                        <!-- <label for="c4" class="card">
+                            <div class="rows">
+                                <div class="icons">4</div>
+                                <div class="description">
+                                    <h4>New technologies</h4>
+                                    <p>Space engineering becomes
+                                     more and more advanced</p>
+                                </div>
+                            </div>
+                        </label> -->
+                    </div>
+                </div>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </section>
             <!-- <section class="contact section">
                 <div class="container">
                     <div class="row">
@@ -449,6 +540,33 @@
 
 
 
+    <!-- color switch  -->
+
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin">
+
+            </i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas fa-moon">
+
+            </i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+
+
+
+
+
 
 
 
@@ -461,5 +579,6 @@
 
 
     <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
 </body>
 </html>
